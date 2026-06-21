@@ -6,7 +6,7 @@ linux-arm64/nfqws \
   --hostlist="lists/list-general.txt" \
   --dpi-desync=fake \
   --dpi-desync-repeats=6 \
-  --dpi-desync-fake-quic="lists/quic_initial_www_google_com.bin" \
+  --dpi-desync-fake-quic="bin/quic_initial_www_google_com.bin" \
   --new \
   --filter-udp=19294-19344,50000-50100 \
   --filter-l7=discord,stun \
