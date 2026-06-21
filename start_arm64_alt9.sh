@@ -15,6 +15,7 @@ chmod +x linux-arm64/nfqws
 # --filter-udp=%GameFilterUDP% --ipset="lists/ipset-all.txt" --ipset-exclude="lists/ipset-exclude.txt" --ipset-exclude="lists/ipset-exclude-user.txt" --dpi-desync=fake --dpi-desync-repeats=12 --dpi-desync-any-protocol=1 --dpi-desync-fake-unknown-udp="%BIN%quic_initial_dbankcloud_ru.bin" --dpi-desync-cutoff=n2
 
 linux-arm64/nfqws \
+ --qnum=200 \
  --filter-udp=443 \
  --hostlist="lists/list-general.txt" \
  --hostlist="lists/list-general-user.txt" \
