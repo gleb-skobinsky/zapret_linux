@@ -2,7 +2,6 @@ chmod +x linux-arm64/nfqws
 
 linux-arm64/nfqws \
   --qnum=200 \
-  --daemon \
   --debug=1 \
   --filter-udp=443 \
   --hostlist="lists/list-general.txt" \
