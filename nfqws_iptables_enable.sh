@@ -1,7 +1,5 @@
 #!/bin/bash
 
-QUEUE=200
-
-iptables -I FORWARD -i wg0 -j NFQUEUE --queue-num $QUEUE
+sudo iptables -t mangle -A PREROUTING -j NFQUEUE --queue-num 200
 
 echo "NFQUEUE enabled."
