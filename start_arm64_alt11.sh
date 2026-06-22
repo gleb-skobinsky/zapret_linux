@@ -1,3 +1,5 @@
+#!/bin/bash
+
 chmod +x linux-arm64/nfqws
 
 linux-arm64/nfqws \
