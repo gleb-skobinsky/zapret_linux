@@ -18,8 +18,3 @@ ytimg.com
 ytimg.l.google.com
 play.google.com
 google.ru
-instagram.com
-www.instagram.com
-cdninstagram.com
-scontent.cdninstagram.com
-graph.instagram.com
