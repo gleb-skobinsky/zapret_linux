@@ -31,6 +31,7 @@ linux-arm64/nfqws \
  --new \
  --filter-tcp=443 \
  --hostlist="lists/list-google.txt" \
+ --hostlist="lists/list-google-user.txt" \
  --ip-id=zero \
  --dpi-desync=hostfakesplit \
  --dpi-desync-repeats=4 \
