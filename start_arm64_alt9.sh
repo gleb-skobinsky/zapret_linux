@@ -94,6 +94,6 @@ linux-arm64/nfqws \
  --filter-tcp=443 \
  --hostlist="lists/list-instagram.txt" \
  --dpi-desync=hostfakesplit \
- --dpi-desync-repeats=4 \
+ --dpi-desync-repeats=8 \
  --dpi-desync-fooling=ts \
  --dpi-desync-hostfakesplit-mod=host=www.google.com
