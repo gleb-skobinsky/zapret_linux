@@ -31,7 +31,6 @@ linux-arm64/nfqws \
  --new \
  --filter-tcp=443 \
  --hostlist="lists/list-google.txt" \
- --hostlist="lists/list-google-user.txt" \
  --ip-id=zero \
  --dpi-desync=hostfakesplit \
  --dpi-desync-repeats=4 \
@@ -90,4 +89,11 @@ linux-arm64/nfqws \
  --dpi-desync-repeats=12 \
  --dpi-desync-any-protocol=1 \
  --dpi-desync-fake-unknown-udp="bin/quic_initial_dbankcloud_ru.bin" \
- --dpi-desync-cutoff=n2
+ --dpi-desync-cutoff=n2 \
+ --new \
+ --filter-tcp=443 \
+ --hostlist="lists/list-instagram.txt" \
+ --dpi-desync=hostfakesplit \
+ --dpi-desync-repeats=4 \
+ --dpi-desync-fooling=ts \
+ --dpi-desync-hostfakesplit-mod=host=www.google.com
